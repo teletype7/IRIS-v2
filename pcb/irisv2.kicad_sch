@@ -7359,7 +7359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN-12_MP4323_MNP"
+		(property "Footprint" "MPM4323GDE:QFN-12_MP4323_MNP"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -8118,7 +8118,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "4.7uF"
 			(at 238.76 110.744 90)
 			(effects
 				(font
@@ -8185,7 +8185,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "4.7uF"
 			(at 238.76 122.936 90)
 			(effects
 				(font
@@ -8260,7 +8260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal"
 			(at 30.48 34.29 0)
 			(effects
 				(font
