@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ATA6560")(type "KiCad")(uri "${KIPRJMOD}/libraries/ATA6560/footprints.pretty")(options "")(descr ""))
+  (lib (name "MPM4323GDE")(type "KiCad")(uri "${KIPRJMOD}/libraries/MPM4323GDE/footprints.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ATA6560")(type "KiCad")(uri "${KIPRJMOD}/libraries/ATA6560/ATA6560.kicad_sym")(options "")(descr ""))
+  (lib (name "MPM4323GDE")(type "KiCad")(uri "${KIPRJMOD}/libraries/MPM4323GDE/MPM4323GDE.kicad_sym")(options "")(descr ""))
+)
