@@ -2,4 +2,8 @@
   (version 7)
   (lib (name "ATA6560")(type "KiCad")(uri "${KIPRJMOD}/libraries/ATA6560/ATA6560.kicad_sym")(options "")(descr ""))
   (lib (name "MPM4323GDE")(type "KiCad")(uri "${KIPRJMOD}/libraries/MPM4323GDE/MPM4323GDE.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32C552MET6")(type "KiCad")(uri "${KIPRJMOD}/libraries/STM32C552ME/STM32C552MET6.kicad_sym")(options "")(descr ""))
+  (lib (name "S25FL256LAGNFI010")(type "KiCad")(uri "${KIPRJMOD}/libraries/S25FL256LAGNFI010/S25FL256LAGNFI010.kicad_sym")(options "")(descr ""))
+  (lib (name "lr2021")(type "KiCad")(uri "${KIPRJMOD}/libraries/lr2021.kicad_sym")(options "")(descr ""))
+  (lib (name "lr2021_new")(type "KiCad")(uri "${KIPRJMOD}/libraries/lr2021_new.kicad_sym")(options "")(descr ""))
 )
