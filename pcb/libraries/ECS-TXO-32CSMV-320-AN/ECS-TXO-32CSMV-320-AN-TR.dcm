@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-TXO-32CSMV-320-AN-TR
+D TCXO Oscillators 32.000 MHz MultiVolt TCXO Clipped Sine Wave 1.7 - 3.465V +/-500ppb -40 - +85C 3.2 x 2.5mm 4-SMD
+K
+F https://ecsxtal.com/store/pdf/ECS-TXO-32CSMV.pdf
+$ENDCMP
+#
+#End Doc Library

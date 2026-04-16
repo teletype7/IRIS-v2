@@ -4,4 +4,5 @@
   (lib (name "MPM4323GDE")(type "KiCad")(uri "${KIPRJMOD}/libraries/MPM4323GDE/footprints.pretty")(options "")(descr ""))
   (lib (name "STM32C552ME")(type "KiCad")(uri "${KIPRJMOD}/libraries/STM32C552ME")(options "")(descr ""))
   (lib (name "S25FL256LAGNFI010")(type "KiCad")(uri "${KIPRJMOD}/libraries/S25FL256LAGNFI010")(options "")(descr ""))
+  (lib (name "ECS-TXO-32CSMV-320-AN")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECS-TXO-32CSMV-320-AN")(options "")(descr ""))
 )

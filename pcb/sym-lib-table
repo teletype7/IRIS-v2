@@ -4,6 +4,7 @@
   (lib (name "MPM4323GDE")(type "KiCad")(uri "${KIPRJMOD}/libraries/MPM4323GDE/MPM4323GDE.kicad_sym")(options "")(descr ""))
   (lib (name "STM32C552MET6")(type "KiCad")(uri "${KIPRJMOD}/libraries/STM32C552ME/STM32C552MET6.kicad_sym")(options "")(descr ""))
   (lib (name "S25FL256LAGNFI010")(type "KiCad")(uri "${KIPRJMOD}/libraries/S25FL256LAGNFI010/S25FL256LAGNFI010.kicad_sym")(options "")(descr ""))
-  (lib (name "lr2021")(type "KiCad")(uri "${KIPRJMOD}/libraries/lr2021.kicad_sym")(options "")(descr ""))
   (lib (name "lr2021_new")(type "KiCad")(uri "${KIPRJMOD}/libraries/lr2021_new.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-TXO-32CSMV-320-AN-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECS-TXO-32CSMV-320-AN/ECS-TXO-32CSMV-320-AN-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "alnd-wb-0013-t")(type "KiCad")(uri "${KIPRJMOD}/libraries/alnd-wb-0013-t.kicad_sym")(options "")(descr ""))
 )
