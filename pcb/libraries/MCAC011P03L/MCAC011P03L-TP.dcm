@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCAC011P03L-TP
+D P-Channel MOSFET DFN5060
+K
+F https://www.mccsemi.com/pdf/Products/MCAC011P03L(DFN5060).pdf
+$ENDCMP
+#
+#End Doc Library

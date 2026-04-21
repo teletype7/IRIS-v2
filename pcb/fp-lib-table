@@ -8,4 +8,5 @@
   (lib (name "icm45686")(type "KiCad")(uri "${KIPRJMOD}/libraries/ICM-45686/footprints.pretty")(options "")(descr ""))
   (lib (name "mmc5983ma")(type "KiCad")(uri "${KIPRJMOD}/libraries/MMC5983MA/footprints.pretty")(options "")(descr ""))
   (lib (name "ATA6561")(type "KiCad")(uri "${KIPRJMOD}/libraries/ATA6561")(options "")(descr ""))
+  (lib (name "MCAC011P03L")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCAC011P03L")(options "")(descr ""))
 )

@@ -2719,6 +2719,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 57.15) (xy 132.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c73534b-091b-47b5-a26d-932e107f1d20")
+	)
+	(wire
+		(pts
 			(xy 243.84 90.17) (xy 243.84 88.9)
 		)
 		(stroke
@@ -3149,6 +3159,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 57.15) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b279e2fe-98d3-438d-bc05-eb940142539f")
+	)
+	(wire
+		(pts
 			(xy 213.36 88.9) (xy 213.36 90.17)
 		)
 		(stroke
@@ -3571,6 +3591,28 @@
 			)
 		)
 	)
+	(global_label "ina_sda"
+		(shape input)
+		(at 129.54 55.88 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c945481-eb19-4590-9d09-6bac47220b30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 45.6983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "lr_nss"
 		(shape input)
 		(at 142.24 147.32 270)
@@ -3747,6 +3789,28 @@
 			)
 		)
 	)
+	(global_label "ina_scl"
+		(shape input)
+		(at 132.08 55.88 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7516a74-6668-498e-85b5-3635d947a032")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 46.2425 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "lr_mosi"
 		(shape input)
 		(at 139.7 147.32 270)
@@ -3778,7 +3842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "018fba33-6ada-4ce7-824b-3be9e21e17a4")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR065"
 			(at 114.3 49.53 0)
 			(effects
 				(font
@@ -3828,7 +3892,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR042")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3843,7 +3907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "107dfaca-1b00-4979-a08d-b2189d0201f5")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR070"
 			(at 161.29 148.59 0)
 			(effects
 				(font
@@ -3893,7 +3957,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR039")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3908,7 +3972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1267b621-f72b-49fa-a041-c29173802c3c")
-		(property "Reference" "C27"
+		(property "Reference" "C48"
 			(at 155.702 152.146 0)
 			(effects
 				(font
@@ -3962,7 +4026,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C27")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3978,7 +4042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bbb9cbd-de7a-4131-af5b-ef8e6207adbc")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR061"
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -4029,7 +4093,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR047")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4044,7 +4108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c801736-c91d-4f18-8853-24179bbd5f0b")
-		(property "Reference" "C32"
+		(property "Reference" "C53"
 			(at 226.06 83.058 0)
 			(effects
 				(font
@@ -4098,7 +4162,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C32")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20ebe589-7475-4c9a-8a21-eeaf274183eb")
-		(property "Reference" "C36"
+		(property "Reference" "C47"
 			(at 73.66 176.53 0)
 			(effects
 				(font
@@ -4167,7 +4231,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C36")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -4182,7 +4246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "223f57b8-e1f1-46e8-b98b-768df8ebafe9")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR072"
 			(at 172.72 90.17 0)
 			(effects
 				(font
@@ -4232,7 +4296,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR041")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4247,7 +4311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2607ad26-664e-47a6-89f6-b4125e288742")
-		(property "Reference" "C30"
+		(property "Reference" "C51"
 			(at 213.36 83.058 0)
 			(effects
 				(font
@@ -4301,7 +4365,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C30")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -4317,7 +4381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30053bbb-9174-419a-86a8-33a32966b211")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR076"
 			(at 210.82 127 0)
 			(effects
 				(font
@@ -4367,7 +4431,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR051")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -4382,7 +4446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30330116-0145-4e77-ac82-b138920a6491")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR064"
 			(at 111.76 59.69 0)
 			(effects
 				(font
@@ -4432,7 +4496,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR043")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4448,7 +4512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "352bdc98-f800-4c73-b4cb-6848c9d60b2f")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR060"
 			(at 96.52 92.71 0)
 			(effects
 				(font
@@ -4499,7 +4563,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR046")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4515,7 +4579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a346f0f-c41e-4046-b440-ff202ca4b2b9")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR059"
 			(at 66.04 154.94 0)
 			(effects
 				(font
@@ -4565,7 +4629,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR054")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4580,7 +4644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c1f5ffe-e067-47eb-8f1c-0d85c9190928")
-		(property "Reference" "C28"
+		(property "Reference" "C49"
 			(at 207.01 83.058 0)
 			(effects
 				(font
@@ -4634,7 +4698,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C28")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4649,7 +4713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e6c70da-b822-4256-ab9d-54400c9d9173")
-		(property "Reference" "C33"
+		(property "Reference" "C54"
 			(at 232.41 83.058 0)
 			(effects
 				(font
@@ -4703,7 +4767,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C33")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -4719,7 +4783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "728a3960-dac8-4d12-acf9-457dfdd8edb7")
-		(property "Reference" "C34"
+		(property "Reference" "C50"
 			(at 214.63 114.2999 0)
 			(effects
 				(font
@@ -4773,7 +4837,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C34")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -4789,7 +4853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f802393-328e-46fa-acc4-e0fb77a2349d")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR062"
 			(at 96.52 115.57 0)
 			(effects
 				(font
@@ -4840,7 +4904,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR045")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4855,7 +4919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82683e24-bc09-4d75-82da-f84b498fe2d6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR067"
 			(at 116.84 143.51 0)
 			(effects
 				(font
@@ -4905,7 +4969,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR037")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4920,7 +4984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d27c77f-0570-4745-92b1-7bc451528347")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 59.69 175.26 0)
 			(effects
 				(font
@@ -4970,7 +5034,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4985,7 +5049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f26ba00-f469-4e11-931b-01cd708307e6")
-		(property "Reference" "C31"
+		(property "Reference" "C52"
 			(at 219.71 83.058 0)
 			(effects
 				(font
@@ -5039,7 +5103,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C31")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -5055,7 +5119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98f2f29f-48fc-40c0-8faf-7c38e35f15c5")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR068"
 			(at 154.94 161.29 0)
 			(effects
 				(font
@@ -5105,7 +5169,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR035")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5121,7 +5185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f571140-2c89-4ce0-ac41-92f36194d6fa")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 44.45 180.34 0)
 			(effects
 				(font
@@ -5171,7 +5235,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5186,7 +5250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a79dbe09-eb6a-4624-92d4-fcf6bbce9814")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR069"
 			(at 157.48 153.67 0)
 			(effects
 				(font
@@ -5236,7 +5300,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR038")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -5393,7 +5457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aab9da3f-5821-4a99-8ee8-3c30e07c8315")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR075"
 			(at 210.82 114.3 0)
 			(effects
 				(font
@@ -5443,7 +5507,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR050")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -5459,7 +5523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac851754-0627-49e5-a104-7048e083f9d5")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 22.86 167.64 0)
 			(effects
 				(font
@@ -5509,7 +5573,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5524,7 +5588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2ce35d5-5554-4751-84f1-f2ccfa696ebe")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 59.69 190.5 0)
 			(effects
 				(font
@@ -5574,7 +5638,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7e85545-12f8-413d-af61-22b6b18c059d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR063"
 			(at 106.68 118.11 0)
 			(effects
 				(font
@@ -5641,7 +5705,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR044")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5657,7 +5721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b81c43ca-a5d6-42af-bcdf-0d19133d03b0")
-		(property "Reference" "C29"
+		(property "Reference" "C55"
 			(at 247.65 83.8199 0)
 			(effects
 				(font
@@ -5711,7 +5775,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C29")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c949d68e-e335-4e21-8e48-e038d051909f")
-		(property "Reference" "C35"
+		(property "Reference" "C46"
 			(at 62.23 176.53 0)
 			(effects
 				(font
@@ -5780,7 +5844,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "C35")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5796,7 +5860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cae572f5-624b-47b2-8636-b9fec3e00696")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 33.02 177.7999 0)
 			(effects
 				(font
@@ -5850,7 +5914,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5866,7 +5930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd9663ad-89d6-42a8-b99f-f26e3230d955")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR073"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -5916,7 +5980,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR048")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5932,7 +5996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf313cfb-0988-49fd-9d95-fdb3a6507807")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR074"
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -5982,7 +6046,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR049")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5997,7 +6061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1992149-9f99-4a66-831c-035e57526bef")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR066"
 			(at 114.3 153.67 0)
 			(effects
 				(font
@@ -6047,7 +6111,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR036")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6063,7 +6127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d67066f7-a154-427f-a2d2-1df3900d170c")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR055"
 			(at 30.48 177.8 0)
 			(effects
 				(font
@@ -6113,7 +6177,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR057")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6128,7 +6192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f12d41bd-f7ac-409c-b0f0-3ad4283987f0")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR071"
 			(at 168.91 82.55 0)
 			(effects
 				(font
@@ -6178,7 +6242,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "#PWR040")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6193,7 +6257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f724cb9e-2106-4dbd-b3be-0ac2281d4e5b")
-		(property "Reference" "IC1"
+		(property "Reference" "IC3"
 			(at 170.688 68.58 0)
 			(effects
 				(font
@@ -6531,7 +6595,7 @@
 		(instances
 			(project "irisv2"
 				(path "/689e90bc-813a-4b0d-8c5b-8f2a305549f3/e4d5d94a-16ad-4f97-bddd-b8d6ace95c59"
-					(reference "IC1")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
