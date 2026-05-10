@@ -1,28 +1,24 @@
-finish mcu and ppu integration
- - both need boot and rst still
- - need debug headers
- - status leds
- - ppu needs oscillators
+finish connecting mcu and ppu
+ - break out remaining pins as gpio
 general debugging needs
- - power leds
-high g accel - leave as dnp for fallout but have space on the board
-esd - need to break out comms interfaces first
+ - testpoints
+esd
+ - only on comms interfaces like i2c spi uart can, don't esd protect everything (too many pins to do that)
 split into upper and lower boards - finish schem first, then adapt
  - need to select connectors and figure out what goes on which board
  - maybe power and pyros on one board, everything else on the other?
- - ideally 50x50
- - gps will be on its own 50x50 board, probably 2 layer (4 if same price because the ground plane is technically supposed to be 60x60)
+ - one 50x50 6 layer for main, 50x50 4 layer for extra, and 50x50 4 layer for gps
+   - gps is supposed to be on 60x60 ground plane but too bad 4 layer should help somewhat
 pyro channels
  - fused (resettable)
 servos
- - 8 channel
- - vbat @ 8a continous, not switched
+ - route power through board, 8a capable
  - maybe add regulated power also for higher voltage vbus support?
 camera control
- - fused power (resettable)
+ - fused controlled power (resettable) - 4a capable
  - UART
 reverse voltage protection
-component selection (oh no...)
+component selection/sourcing (oh no...)
 basic test firmware (test of all components, not just most)
  - must validate telemetry
  - must validate gps

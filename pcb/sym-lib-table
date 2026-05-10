@@ -11,4 +11,5 @@
   (lib (name "mmc5983ma")(type "KiCad")(uri "${KIPRJMOD}/libraries/MMC5983MA/mmc5983ma.kicad_sym")(options "")(descr ""))
   (lib (name "ATA6561-GAQW-N")(type "KiCad")(uri "${KIPRJMOD}/libraries/ATA6561/ATA6561-GAQW-N.kicad_sym")(options "")(descr ""))
   (lib (name "MCAC011P03L-TP")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCAC011P03L/MCAC011P03L-TP.kicad_sym")(options "")(descr ""))
+  (lib (name "H3LIS331DLTR")(type "KiCad")(uri "${KIPRJMOD}/libraries/H3LIS331DLTR/H3LIS331DLTR.kicad_sym")(options "")(descr ""))
 )
