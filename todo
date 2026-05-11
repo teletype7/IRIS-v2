@@ -4,16 +4,18 @@ general debugging needs
  - testpoints
 esd
  - only on comms interfaces like i2c spi uart can, don't esd protect everything (too many pins to do that)
+ - actually maybe nevermind? there's integrated esd protection in everything or it's rated for decent esd
 split into upper and lower boards - finish schem first, then adapt
  - need to select connectors and figure out what goes on which board
+   - probably just jst ph or smth
  - maybe power and pyros on one board, everything else on the other?
  - one 50x50 6 layer for main, 50x50 4 layer for extra, and 50x50 4 layer for gps
    - gps is supposed to be on 60x60 ground plane but too bad 4 layer should help somewhat
+ - need to split the board into multiple kicad projects so it'll let me  have multiple different boards
 pyro channels
  - fused (resettable)
 servos
  - route power through board, 8a capable
- - maybe add regulated power also for higher voltage vbus support?
 camera control
  - fused controlled power (resettable) - 4a capable
  - UART

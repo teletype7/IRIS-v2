@@ -4869,7 +4869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.6152 115.57 0)
 			(effects
 				(font
@@ -4939,7 +4939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.6152 156.21 0)
 			(effects
 				(font
@@ -5009,7 +5009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.1252 95.25 0)
 			(effects
 				(font
@@ -5077,7 +5077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_2p5X3X0p81_LGA14L_TDK"
+		(property "Footprint" "icm45686:U_2p5X3X0p81_LGA14L_TDK"
 			(at 29.21 90.17 0)
 			(effects
 				(font
@@ -5185,7 +5185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.3152 156.21 0)
 			(effects
 				(font
@@ -5255,7 +5255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 202.8952 80.01 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP581"
+		(property "Footprint" "BMP581:BMP581"
 			(at 226.06 125.4 0)
 			(effects
 				(font
@@ -5468,7 +5468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.5 170.18 0)
 			(effects
 				(font
@@ -5604,7 +5604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 108.9152 156.21 0)
 			(effects
 				(font
@@ -5740,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIS3DHTR"
+		(property "Footprint" "H3LIS331DLTR:LIS3DHTR"
 			(at 228.6 202.87 0)
 			(effects
 				(font
@@ -5968,7 +5968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_2p5X3X0p81_LGA14L_TDK"
+		(property "Footprint" "icm45686:U_2p5X3X0p81_LGA14L_TDK"
 			(at 29.21 35.56 0)
 			(effects
 				(font
@@ -6405,7 +6405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.4252 40.64 0)
 			(effects
 				(font
@@ -6475,7 +6475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.4252 95.25 0)
 			(effects
 				(font
@@ -6545,7 +6545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 215.5952 80.01 0)
 			(effects
 				(font
@@ -6615,7 +6615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 261.3152 115.57 0)
 			(effects
 				(font
@@ -6682,7 +6682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MMC5983MA_MEM"
+		(property "Footprint" "mmc5983ma:MMC5983MA_MEM"
 			(at 27.94 147.32 0)
 			(effects
 				(font
@@ -6928,7 +6928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 95.25 0)
 			(effects
 				(font
@@ -7063,7 +7063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.1252 40.64 0)
 			(effects
 				(font
@@ -7133,7 +7133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 40.64 0)
 			(effects
 				(font
@@ -7466,7 +7466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.2952 80.01 0)
 			(effects
 				(font
@@ -7536,7 +7536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 272.7452 115.57 0)
 			(effects
 				(font
@@ -7672,7 +7672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 115.57 0)
 			(effects
 				(font

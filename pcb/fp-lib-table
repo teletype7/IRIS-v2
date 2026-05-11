@@ -10,4 +10,7 @@
   (lib (name "ATA6561")(type "KiCad")(uri "${KIPRJMOD}/libraries/ATA6561")(options "")(descr ""))
   (lib (name "MCAC011P03L")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCAC011P03L")(options "")(descr ""))
   (lib (name "H3LIS331DLTR")(type "KiCad")(uri "${KIPRJMOD}/libraries/H3LIS331DLTR")(options "")(descr ""))
+  (lib (name "UJ20-C-H-G-SMT-1-P16-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/UJ20-C-H-G-SMT-1-P16-TR")(options "")(descr ""))
+  (lib (name "AANI-PP-0055")(type "KiCad")(uri "${KIPRJMOD}/libraries/AANI-PP-0055.pretty")(options "")(descr ""))
+  (lib (name "ALND-WB-0013-T")(type "KiCad")(uri "${KIPRJMOD}/libraries/ALND-WB-0013-T.pretty")(options "")(descr ""))
 )
