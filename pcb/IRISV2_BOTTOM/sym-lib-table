@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCAC011P03L-TP")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCAC011P03L/MCAC011P03L-TP.kicad_sym")(options "")(descr ""))
+  (lib (name "MPM4323GDE")(type "KiCad")(uri "${KIPRJMOD}/libraries/MPM4323GDE/MPM4323GDE.kicad_sym")(options "")(descr ""))
+)

@@ -7,11 +7,8 @@ esd
  - actually maybe nevermind? there's integrated esd protection in everything or it's rated for decent esd
 split into upper and lower boards - finish schem first, then adapt
  - need to select connectors and figure out what goes on which board
-   - probably just jst ph or smth
- - maybe power and pyros on one board, everything else on the other?
- - one 50x50 6 layer for main, 50x50 4 layer for extra, and 50x50 4 layer for gps
-   - gps is supposed to be on 60x60 ground plane but too bad 4 layer should help somewhat
- - need to split the board into multiple kicad projects so it'll let me  have multiple different boards
+   - use jst ph for gps, probably fpc for upper->lower
+   - what to use for power though?
 pyro channels
  - fused (resettable)
 servos

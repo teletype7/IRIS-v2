@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -50,8 +50,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffff7f_ffff555f",
-    "zone_display_mode": 1
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "zone_display_mode": 0
   },
   "git": {
     "integration_disabled": false,
@@ -60,15 +60,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "irisv2.kicad_prl",
+    "filename": "top.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
-      false,
-      false,
       false,
       false,
       false,
@@ -90,17 +86,9 @@
       6,
       7,
       8,
-      9,
-      10,
-      11,
-      12,
-      13
+      9
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0,

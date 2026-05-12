@@ -1,3 +1,4 @@
 ~*.lck
-pcb/#auto_saved_files#
-pcb/irisv2-backups
+pcb/*/#auto_saved_files#
+pcb/*/*-backups
+pcb/*/fp-info-cache
