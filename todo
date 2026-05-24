@@ -5,14 +5,12 @@ general debugging needs
 esd
  - only on comms interfaces like i2c spi uart can, don't esd protect everything (too many pins to do that)
  - actually maybe nevermind? there's integrated esd protection in everything or it's rated for decent esd
-split into upper and lower boards - finish schem first, then adapt
- - need to select connectors and figure out what goes on which board
-   - use jst ph for gps, probably fpc for upper->lower
-   - what to use for power though?
+connectors
+ - jst ph for gps
+ - 20 pin 1mm pitch fpc for upper-lower
+ - use brass standoffs for 3v3
 pyro channels
  - fused (resettable)
-servos
- - route power through board, 8a capable
 camera control
  - fused controlled power (resettable) - 4a capable
  - UART

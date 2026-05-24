@@ -3,4 +3,7 @@
   (lib (name "MCAC011P03L")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCAC011P03L")(options "")(descr ""))
   (lib (name "MGAH0603")(type "KiCad")(uri "${KIPRJMOD}/libraries/MGAH0603.pretty")(options "")(descr ""))
   (lib (name "MPM4323GDE")(type "KiCad")(uri "${KIPRJMOD}/libraries/MPM4323GDE/footprints.pretty")(options "")(descr ""))
+  (lib (name "SK34SMA-3G")(type "KiCad")(uri "${KIPRJMOD}/libraries/SK34SMA-3G")(options "")(descr ""))
+  (lib (name "kf350-2p")(type "KiCad")(uri "${KIPRJMOD}/libraries/kf350-2p")(options "")(descr ""))
+  (lib (name "FFC3B07-20-T")(type "KiCad")(uri "${KIPRJMOD}/libraries/FFC3B07-20-T")(options "")(descr ""))
 )
