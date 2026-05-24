@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMT-8504-03-SMT-TR
+D 8.5 mm, 3 Vo-p, 85 dB, Surface Mount, Magnetic Audio Transducer Buzzer
+K
+F https://www.sameskydevices.com/product/resource/cmt-8504-03-smt-tr.pdf
+$ENDCMP
+#
+#End Doc Library

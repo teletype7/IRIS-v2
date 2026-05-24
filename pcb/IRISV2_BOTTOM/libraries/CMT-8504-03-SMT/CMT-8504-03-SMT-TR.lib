@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CMT-8504-03-SMT-TR
+#/20081788/1794276/2.50/4/2/Loudspeaker or Buzzer
+DEF CMT-8504-03-SMT-TR LS 0 30 Y Y 1 F N
+F0 "LS" 950 300 50 H V L CNN
+F1 "CMT-8504-03-SMT-TR" 950 200 50 H V L CNN
+F2 "CMT850403SMTTR" 950 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/cmt-8504-03-smt-tr.pdf" 950 0 50 H I L CNN
+F4 "8.5 mm, 3 Vo-p, 85 dB, Surface Mount, Magnetic Audio Transducer Buzzer" 950 -100 50 H I L CNN "Description"
+F5 "4.5" 950 -200 50 H I L CNN "Height"
+F6 "179-CMT-8504-03SMTTR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Same-Sky/CMT-8504-03-SMT-TR?qs=olJun0bQHM8hsIBgiowfOQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CMT-8504-03-SMT-TR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X + 1 1100 -100 200 L 50 50 0 0 P
+X - 2 1100 0 200 L 50 50 0 0 P
+X DUMMY_ 3 0 0 200 R 50 50 0 0 P
+X DUMMY 4 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
