@@ -11,4 +11,5 @@
   (lib (name "LR2021")(type "KiCad")(uri "${KIPRJMOD}/libraries")(options "")(descr ""))
   (lib (name "ECS-TXO-32CSMV-320-AN")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECS-TXO-32CSMV-320-AN")(options "")(descr ""))
   (lib (name "FFC3B07-20-T")(type "KiCad")(uri "${KIPRJMOD}/libraries/FFC3B07-20-T")(options "")(descr ""))
+  (lib (name "MEM2085-00-115")(type "KiCad")(uri "${KIPRJMOD}/libraries/MEM2085-00-115")(options "")(descr ""))
 )

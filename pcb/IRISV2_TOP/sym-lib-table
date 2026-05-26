@@ -10,4 +10,5 @@
   (lib (name "STM32C552MET6")(type "KiCad")(uri "${KIPRJMOD}/libraries/STM32C552ME/STM32C552MET6.kicad_sym")(options "")(descr ""))
   (lib (name "UJ20-C-H-G-SMT-1-P16-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/UJ20-C-H-G-SMT-1-P16-TR/UJ20-C-H-G-SMT-1-P16-TR.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-TXO-32CSMV-320-AN-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECS-TXO-32CSMV-320-AN/ECS-TXO-32CSMV-320-AN-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "MEM2085-00-115-00-A")(type "KiCad")(uri "${KIPRJMOD}/libraries/MEM2085-00-115/MEM2085-00-115-00-A.kicad_sym")(options "")(descr ""))
 )
