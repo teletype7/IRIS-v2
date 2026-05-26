@@ -2193,12 +2193,6 @@
 		(uuid "20fbfb09-22c4-4d29-92f0-f360b8421262")
 	)
 	(junction
-		(at 138.43 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28a3ee25-66e2-4985-81af-ec86b8a28907")
-	)
-	(junction
 		(at 107.95 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2227,12 +2221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3241a2ea-9072-4d7c-bbd5-1cd530d3ec4e")
-	)
-	(junction
-		(at 148.59 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "331daac9-dcb8-474c-8d88-bd846f9d777e")
 	)
 	(junction
 		(at 57.15 176.53)
@@ -2337,22 +2325,10 @@
 		(uuid "9e68521d-2fe9-44ef-8a96-37cf28b11a7c")
 	)
 	(junction
-		(at 138.43 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0e3b004-fa73-4c03-a734-2ce73c623ca2")
-	)
-	(junction
 		(at 83.82 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a282092a-3978-4619-93ea-f5d6fabd6fe8")
-	)
-	(junction
-		(at 148.59 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae3e25fe-8c29-4ba3-9ceb-1dcc5ce08c5b")
 	)
 	(junction
 		(at 90.17 44.45)
@@ -2486,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 134.62) (xy 138.43 137.16)
+			(xy 138.43 140.97) (xy 138.43 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2626,16 +2602,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 137.16) (xy 139.7 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16fc7d0b-fb57-4574-b6f8-83798d01d4e1")
-	)
-	(wire
-		(pts
 			(xy 87.63 54.61) (xy 90.17 54.61)
 		)
 		(stroke
@@ -2663,16 +2629,6 @@
 			(type default)
 		)
 		(uuid "1af1fe8a-4f3f-4b85-9540-9d04bce598ec")
-	)
-	(wire
-		(pts
-			(xy 138.43 137.16) (xy 138.43 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b4bf484-d05d-4669-8499-6add064fdcba")
 	)
 	(wire
 		(pts
@@ -2753,16 +2709,6 @@
 			(type default)
 		)
 		(uuid "2529b6ce-f16b-49b5-af68-08cf823542e1")
-	)
-	(wire
-		(pts
-			(xy 138.43 156.21) (xy 139.7 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25573c1f-d7eb-488f-994d-f5be49336e22")
 	)
 	(wire
 		(pts
@@ -3156,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 156.21) (xy 138.43 161.29)
+			(xy 138.43 149.86) (xy 138.43 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3846,16 +3792,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 156.21) (xy 148.59 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb1aab8-54ba-479a-b5a2-19c8888faeae")
-	)
-	(wire
-		(pts
 			(xy 76.2 176.53) (xy 76.2 177.8)
 		)
 		(stroke
@@ -3966,16 +3902,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 137.16) (xy 144.78 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caa7f8ed-f25b-4239-8d09-051ecb820342")
-	)
-	(wire
-		(pts
 			(xy 68.58 35.56) (xy 72.39 35.56)
 		)
 		(stroke
@@ -4036,16 +3962,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 149.86) (xy 138.43 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d680d4b5-1439-45f0-8af3-7c1cc684100e")
-	)
-	(wire
-		(pts
 			(xy 138.43 172.72) (xy 139.7 172.72)
 		)
 		(stroke
@@ -4083,16 +3999,6 @@
 			(type default)
 		)
 		(uuid "db2863ed-6143-41b5-80fe-53515836f299")
-	)
-	(wire
-		(pts
-			(xy 148.59 156.21) (xy 144.78 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddc1248e-515e-49e4-97b5-713eb50a2f48")
 	)
 	(wire
 		(pts
@@ -4253,16 +4159,6 @@
 			(type default)
 		)
 		(uuid "ea8eb390-2b39-42d9-927a-72fdd6ae1d10")
-	)
-	(wire
-		(pts
-			(xy 148.59 137.16) (xy 148.59 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecfdb2d0-fbbb-4dc0-b477-d956e3aec4a4")
 	)
 	(wire
 		(pts
@@ -5002,7 +4898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 29.5148 0)
 			(effects
 				(font
@@ -5278,7 +5174,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 83.82 181.61 0)
 			(effects
 				(font
@@ -5617,7 +5513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 36.322 62.23 90)
 			(effects
 				(font
@@ -6596,73 +6492,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 142.24 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ba98041-98e5-45ab-ae82-a14cea8487cf")
-		(property "Reference" "C95"
-			(at 145.796 152.146 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uF"
-			(at 145.796 154.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9629f4e7-f2db-41a8-9375-83c458dc153f")
-		)
-		(pin "1"
-			(uuid "e1d17d0a-f151-4e9a-aa06-3f77b0511d7c")
-		)
-		(instances
-			(project "IRISV2_TOP"
-				(path "/65d451b7-ca6d-40f5-846e-6446c66ea54a/5f3fc6bf-b50c-4361-8d29-28d6b430a3ee"
-					(reference "C95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 104.14 54.61 90)
 		(unit 1)
@@ -7109,7 +6938,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "1uF"
 			(at 145.796 140.716 90)
 			(effects
 				(font
@@ -7117,7 +6946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.24 142.24 0)
 			(effects
 				(font
@@ -7187,7 +7016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 136.652 147.32 90)
 			(effects
 				(font
@@ -7590,7 +7419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 34.5948 0)
 			(effects
 				(font
@@ -7660,7 +7489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 146.05 59.69 0)
 			(effects
 				(font
@@ -8441,7 +8270,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 138.43 134.62 0)
+		(at 138.43 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8450,7 +8279,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8bd18dc-19f4-48df-9d56-ac896f39c2c7")
 		(property "Reference" "#PWR0129"
-			(at 138.43 138.43 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8459,7 +8288,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 138.43 129.54 0)
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8467,7 +8296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 134.62 0)
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8476,7 +8305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 134.62 0)
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8485,7 +8314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 138.43 134.62 0)
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,73 +8746,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 142.24 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3e6ac76-4c30-45ef-a549-dd284b913ca0")
-		(property "Reference" "C93"
-			(at 145.796 133.096 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uF"
-			(at 145.796 135.636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 142.24 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a33556e8-7878-483b-844b-83a59ffbe747")
-		)
-		(pin "1"
-			(uuid "8256345d-5c80-4b56-b393-8c20e66a0e0b")
-		)
-		(instances
-			(project "IRISV2_TOP"
-				(path "/65d451b7-ca6d-40f5-846e-6446c66ea54a/5f3fc6bf-b50c-4361-8d29-28d6b430a3ee"
-					(reference "C93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 40.64 36.83 0)
 		(unit 1)
@@ -9267,7 +9029,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "10uF"
 			(at 145.796 159.766 90)
 			(effects
 				(font
@@ -9275,7 +9037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.24 161.29 0)
 			(effects
 				(font
@@ -9412,7 +9174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 41.402 62.23 90)
 			(effects
 				(font

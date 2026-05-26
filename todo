@@ -1,10 +1,10 @@
+swap all spi cs's to hardware pins in case I want to try that with firmware
 finish connecting mcu and ppu
  - break out remaining pins as gpio
 general debugging needs
  - testpoints
 esd
  - only on comms interfaces like i2c spi uart can, don't esd protect everything (too many pins to do that)
- - actually maybe nevermind? there's integrated esd protection in everything or it's rated for decent esd
 connectors
  - jst ph for gps
  - 20 pin 1mm pitch fpc for upper-lower
