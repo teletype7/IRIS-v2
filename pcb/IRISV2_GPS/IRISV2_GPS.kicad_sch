@@ -2402,6 +2402,16 @@
 		)
 		(uuid "948c451a-7484-4aa0-ad83-619332da5268")
 	)
+	(text "current lna won't work because it would destroy the signal from out of band interferece, too low p1db and iip3"
+		(exclude_from_sim no)
+		(at 211.582 137.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd39b0f0-32b1-4889-9608-94c38a58d3fa")
+	)
 	(junction
 		(at 57.15 93.98)
 		(diameter 0)

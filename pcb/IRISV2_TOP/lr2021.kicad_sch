@@ -4702,6 +4702,98 @@
 			)
 		)
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 147.32) (xy 15.24 193.04) (xy 107.95 193.04) (xy 107.95 147.32)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 7d784c0b-8936-45c3-885f-25092456d8e8)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 78.74 25.4) (xy 78.74 71.12) (xy 171.45 71.12) (xy 171.45 25.4)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f4b50d00-b165-4dd2-9dcd-66892faaa3a0)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 49.53 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dffbcb0-3d36-47e1-a620-ebf1efc2158a")
+		(property "Netclass" "RF"
+			(at 50.2285 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 115.57 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b011da58-f6c3-4f0c-907b-552e7542440e")
+		(property "Netclass" "RF"
+			(at 116.2685 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -78.74 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:L")
 		(at 138.43 59.69 0)
