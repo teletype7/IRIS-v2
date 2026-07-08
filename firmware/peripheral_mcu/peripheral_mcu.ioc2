@@ -504,7 +504,7 @@
     },
     "HAL_CORTEX_PROJECT_USE_HAL": {
       "name": "HAL_CORTEX_PROJECT_USE_HAL",
-      "value": 5,
+      "value": 6,
       "originator": "sw-config-semaphore"
     },
     "HAL_ICACHE_CORE_ENABLED": {
@@ -1442,6 +1442,25 @@
         },
         "pinned": true,
         "pin": {
+          "name": "PE0",
+          "position": "77",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 0,
+          "port": "E"
+        }
+      },
+      {
+        "signal": {
+          "instance": "GPIOE",
+          "name": "GPIO",
+          "type": "user_gpio"
+        },
+        "pinned": true,
+        "pin": {
           "name": "PE1",
           "position": "78",
           "type": "gpio",
@@ -2304,6 +2323,17 @@
           "ioStructure": "FT",
           "index": 15,
           "port": "D"
+        },
+        {
+          "name": "PE0",
+          "position": "77",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 0,
+          "port": "E"
         },
         {
           "name": "PE1",
@@ -5758,6 +5788,15 @@ solution:
                 },
                 {
                   "_foreignKey": "PD15",
+                  "basic": {
+                    "mode": "INPUT",
+                    "pull": "NO",
+                    "enable_exti": false
+                  },
+                  "label_name": []
+                },
+                {
+                  "_foreignKey": "PE0",
                   "basic": {
                     "mode": "INPUT",
                     "pull": "NO",
