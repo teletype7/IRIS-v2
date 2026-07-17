@@ -4680,6 +4680,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 134.62) (xy 184.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0357fc7d-0a59-47aa-abcf-878cf2c41156")
+	)
+	(wire
+		(pts
 			(xy 101.6 177.8) (xy 102.87 177.8)
 		)
 		(stroke
@@ -6478,6 +6488,16 @@
 		)
 		(uuid "5274bd42-321c-4a86-8771-8da3572248c3")
 	)
+	(label "feedback"
+		(at 194.31 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54d2eaae-0030-4af7-902a-a773250f61fc")
+	)
 	(label "buzzer"
 		(at 48.26 147.32 180)
 		(effects
@@ -6587,16 +6607,6 @@
 			(justify right bottom)
 		)
 		(uuid "e2d887c3-b6bd-4f65-8d49-7a4b11942983")
-	)
-	(label "feedback"
-		(at 184.15 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6183a7a-f9aa-421c-96f7-92800a150b38")
 	)
 	(label "buzzer"
 		(at 186.69 48.26 180)
@@ -7120,7 +7130,7 @@
 		(dnp no)
 		(uuid "08d7f458-8634-44c2-add5-69e0e8464b7c")
 		(property "Reference" "R9"
-			(at 189.23 129.794 90)
+			(at 189.23 136.652 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7138,7 @@
 			)
 		)
 		(property "Value" "31.6k"
-			(at 189.23 132.334 90)
+			(at 189.23 139.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,6 +9225,71 @@
 			(project "IRISV2_BOTTOM"
 				(path "/27a5960f-7325-4718-9a51-5d24e2b80910"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61bedfa1-3da4-4154-bcff-b4212909cf08")
+		(property "Reference" "#PWR042"
+			(at 184.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.594 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b907190-513c-45aa-8740-48f59851623b")
+		)
+		(instances
+			(project "IRISV2_BOTTOM"
+				(path "/27a5960f-7325-4718-9a51-5d24e2b80910"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

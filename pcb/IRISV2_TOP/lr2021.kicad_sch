@@ -917,49 +917,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECS-TXO-32CSMV-320-AN-TR:ECS-TXO-32CSMV-320-AN-TR"
+		(symbol "ECS-TXO-20CSMV4:ECS-TXO-20CSMV4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at 34.29 7.62 0)
+			(property "Reference" "U"
+				(at 5.334 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "ECS-TXO-32CSMV-320-AN-TR"
-				(at 34.29 5.08 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "ECSTXO32CSMV320ANTR"
-				(at 34.29 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-32CSMV.pdf"
-				(at 34.29 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "TCXO Oscillators 32.000 MHz MultiVolt TCXO Clipped Sine Wave 1.7 - 3.465V +/-500ppb -40 - +85C 3.2 x 2.5mm 4-SMD"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -968,72 +946,42 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.2"
-				(at 34.29 -394.92 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "520-TXO32CSMV320ANTR"
-				(at 34.29 -494.92 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-TXO-32CSMV-320-AN-TR?qs=i8QVZAFTkqSFD5tboM1KdA%3D%3D"
-				(at 34.29 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "ECS"
-				(at 34.29 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ECS-TXO-32CSMV-320-AN-TR"
-				(at 34.29 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ECS-TXO-32CSMV-320-AN-TR_1_1"
+			(symbol "ECS-TXO-20CSMV4_0_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 33.02 -5.08)
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VDD"
+			)
+			(symbol "ECS-TXO-20CSMV4_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1048,10 +996,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GROUND_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1066,10 +1014,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 38.1 0 180)
-					(length 5.08)
-					(name "OUTPUT"
+				(pin output line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1077,24 +1025,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -2.54 180)
-					(length 5.08)
-					(name "GROUND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2051,8 +1981,8 @@
 		(uuid 83eb3879-a358-4318-ba4d-70d73f8e2a43)
 	)
 	(rectangle
-		(start 97.79 87.63)
-		(end 157.48 111.76)
+		(start 110.49 87.63)
+		(end 144.78 118.11)
 		(stroke
 			(width 0)
 			(type default)
@@ -2136,7 +2066,7 @@
 	)
 	(text "32mhz tcxo"
 		(exclude_from_sim no)
-		(at 103.378 86.868 0)
+		(at 115.824 86.106 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2191,12 +2121,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20fbfb09-22c4-4d29-92f0-f360b8421262")
-	)
-	(junction
-		(at 107.95 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29a76847-7498-4d69-a5c7-94f1921e9fea")
 	)
 	(junction
 		(at 138.43 161.29)
@@ -2403,6 +2327,12 @@
 		(uuid "f0e56575-8191-4c4e-8227-2e05f57f2870")
 	)
 	(junction
+		(at 125.73 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5bc1114-3182-4c75-a80f-46ec577bdc5b")
+	)
+	(junction
 		(at 72.39 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2508,16 +2438,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 147.32 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb5d6fc-bba1-4c0f-b397-00321e254608")
-	)
-	(wire
-		(pts
 			(xy 97.79 31.75) (xy 97.79 33.02)
 		)
 		(stroke
@@ -2525,16 +2445,6 @@
 			(type default)
 		)
 		(uuid "0d3f38a8-26d2-4544-98e3-6420b149d08b")
-	)
-	(wire
-		(pts
-			(xy 105.41 96.52) (xy 109.22 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d5af193-c7b8-4be1-8b8d-b4d87647f77c")
 	)
 	(wire
 		(pts
@@ -2565,6 +2475,16 @@
 			(type default)
 		)
 		(uuid "102bb96e-61bb-4d36-80fe-11e5b880d0fb")
+	)
+	(wire
+		(pts
+			(xy 125.73 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1119fc96-2863-4561-8683-923a4c96677e")
 	)
 	(wire
 		(pts
@@ -2625,16 +2545,6 @@
 			(type default)
 		)
 		(uuid "18115171-0be6-4402-9d34-adbedbc499d6")
-	)
-	(wire
-		(pts
-			(xy 105.41 102.87) (xy 105.41 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af1fe8a-4f3f-4b85-9540-9d04bce598ec")
 	)
 	(wire
 		(pts
@@ -2748,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 105.41) (xy 107.95 104.14)
+			(xy 125.73 111.76) (xy 125.73 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2828,16 +2738,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 104.14) (xy 107.95 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "319234aa-7b03-4b9b-a587-d78f12d7425a")
-	)
-	(wire
-		(pts
 			(xy 138.43 142.24) (xy 138.43 144.78)
 		)
 		(stroke
@@ -2848,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 97.79) (xy 105.41 96.52)
+			(xy 118.11 90.17) (xy 118.11 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3028,16 +2928,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 104.14) (xy 107.95 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b436533-77a7-40ad-af2f-9016adefe7ea")
-	)
-	(wire
-		(pts
 			(xy 60.96 100.33) (xy 63.5 100.33)
 		)
 		(stroke
@@ -3098,6 +2988,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 110.49) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5422346f-ffc1-43d5-aecc-633ce688c2b3")
+	)
+	(wire
+		(pts
 			(xy 63.5 69.85) (xy 62.23 69.85)
 		)
 		(stroke
@@ -3118,6 +3018,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 91.44) (xy 125.73 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567dae4c-0146-4bb9-9ccd-c6fc164ae0cc")
+	)
+	(wire
+		(pts
 			(xy 119.38 64.77) (xy 129.54 64.77)
 		)
 		(stroke
@@ -3128,7 +3038,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 148.59 96.52)
+			(xy 133.35 100.33) (xy 134.62 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3325,16 +3235,6 @@
 			(type default)
 		)
 		(uuid "80f567f4-938f-412e-bcbd-475dace21761")
-	)
-	(wire
-		(pts
-			(xy 107.95 99.06) (xy 109.22 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "825dcdb4-4878-4674-bd76-c2099da94e28")
 	)
 	(wire
 		(pts
@@ -3878,6 +3778,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fcebd9-17e8-41a6-84d6-6f2739ae9c20")
+	)
+	(wire
+		(pts
 			(xy 40.64 35.56) (xy 40.64 36.83)
 		)
 		(stroke
@@ -4078,6 +3988,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 102.87) (xy 118.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e283852f-9d91-47a8-a1f1-4b28f74c20ea")
+	)
+	(wire
+		(pts
 			(xy 27.94 30.48) (xy 29.21 30.48)
 		)
 		(stroke
@@ -4135,16 +4055,6 @@
 			(type default)
 		)
 		(uuid "e80425a7-5186-4024-8599-bcfd364e4d0b")
-	)
-	(wire
-		(pts
-			(xy 148.59 100.33) (xy 148.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9979c4b-5008-4430-b700-d76f61afaa55")
 	)
 	(wire
 		(pts
@@ -4347,7 +4257,7 @@
 		(uuid "8be8201f-ce4c-4b95-9a0b-fb1d1792731f")
 	)
 	(label "lr_xtalin"
-		(at 148.59 96.52 0)
+		(at 134.62 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4387,7 +4297,7 @@
 		(uuid "c1243c44-c2e9-4ff4-9fe3-8d559ed81bab")
 	)
 	(label "lr_vtcxo"
-		(at 107.95 96.52 180)
+		(at 124.46 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4822,7 +4732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 138.43 59.69 0)
 			(effects
 				(font
@@ -4959,7 +4869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 118.11 49.8348 0)
 			(effects
 				(font
@@ -5162,7 +5072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 44.45 152.7048 0)
 			(effects
 				(font
@@ -5501,7 +5411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 45.72 175.5648 0)
 			(effects
 				(font
@@ -5571,7 +5481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 90.17 49.53 0)
 			(effects
 				(font
@@ -5776,7 +5686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 68.2752 185.42 0)
 			(effects
 				(font
@@ -5844,7 +5754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -5913,7 +5823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 47.9552 185.42 0)
 			(effects
 				(font
@@ -5982,7 +5892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 120.3452 63.5 0)
 			(effects
 				(font
@@ -6025,53 +5935,34 @@
 		)
 	)
 	(symbol
-		(lib_id "ECS-TXO-32CSMV-320-AN-TR:ECS-TXO-32CSMV-320-AN-TR")
-		(at 109.22 96.52 0)
+		(lib_id "ECS-TXO-20CSMV4:ECS-TXO-20CSMV4")
+		(at 125.73 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3af0bedb-d6d3-4029-9cd6-e054dfc302d3")
-		(property "Reference" "Y5"
-			(at 128.27 88.9 0)
+		(uuid "3a1d89c9-eeff-414e-8702-809e17072d0e")
+		(property "Reference" "U1"
+			(at 138.43 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "ECS-TXO-32CSMV-320-AN-TR"
-			(at 128.27 91.44 0)
+		(property "Value" "~"
+			(at 138.43 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "ECS-TXO-32CSMV-320-AN:ECSTXO32CSMV320ANTR"
-			(at 143.51 191.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-32CSMV.pdf"
-			(at 143.51 291.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TCXO Oscillators 32.000 MHz MultiVolt TCXO Clipped Sine Wave 1.7 - 3.465V +/-500ppb -40 - +85C 3.2 x 2.5mm 4-SMD"
-			(at 109.22 96.52 0)
+		(property "Footprint" "ECS-TXO-20CSMV4:ECS-TXO-20CSMV4"
+			(at 125.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,72 +5970,37 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.2"
-			(at 143.51 491.44 0)
+		(property "Datasheet" ""
+			(at 125.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "520-TXO32CSMV320ANTR"
-			(at 143.51 591.44 0)
+		(property "Description" ""
+			(at 125.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-TXO-32CSMV-320-AN-TR?qs=i8QVZAFTkqSFD5tboM1KdA%3D%3D"
-			(at 143.51 691.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ECS"
-			(at 143.51 791.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECS-TXO-32CSMV-320-AN-TR"
-			(at 143.51 891.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "0299b481-28b6-4d13-bfc8-d3bea0271ab4")
-		)
-		(pin "2"
-			(uuid "1722b0ba-5210-47b2-954c-14d2754c40f9")
+			(uuid "4b8f07c6-9174-43cd-addb-9352c97ab2cf")
 		)
 		(pin "3"
-			(uuid "ab51457c-dc2e-4644-981c-1c098c770490")
+			(uuid "723cd868-6378-46e7-9c62-4417115bb852")
 		)
 		(pin "4"
-			(uuid "8a9c931d-28c1-481b-835c-728e59b70a5e")
+			(uuid "69dfae84-9ec5-4a29-b846-8423067dfb80")
 		)
 		(instances
 			(project "IRISV2_TOP"
 				(path "/65d451b7-ca6d-40f5-846e-6446c66ea54a/5f3fc6bf-b50c-4361-8d29-28d6b430a3ee"
-					(reference "Y5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6241,7 +6097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 26.67 165.4048 0)
 			(effects
 				(font
@@ -6308,7 +6164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 33.02 176.53 0)
 			(effects
 				(font
@@ -6375,7 +6231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 55.88 171.7548 0)
 			(effects
 				(font
@@ -6510,7 +6366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 76.2 181.61 0)
 			(effects
 				(font
@@ -6644,7 +6500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 107.95 53.6448 0)
 			(effects
 				(font
@@ -7007,7 +6863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 58.1152 185.42 0)
 			(effects
 				(font
@@ -7188,72 +7044,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c9567ad-fd4a-416e-8857-7c76794d7e98")
-		(property "Reference" "#PWR0130"
-			(at 148.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2aac921e-a71b-4d22-8ce4-caa600192c24")
-		)
-		(instances
-			(project "IRISV2_TOP"
-				(path "/65d451b7-ca6d-40f5-846e-6446c66ea54a/5f3fc6bf-b50c-4361-8d29-28d6b430a3ee"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 109.22 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7413,7 +7203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 124.46 54.61 0)
 			(effects
 				(font
@@ -7480,7 +7270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 52.07 176.53 0)
 			(effects
 				(font
@@ -7661,7 +7451,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 105.41 0)
+		(at 125.73 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7670,7 +7460,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f27e981-2894-4bac-a2d0-2c564a0f55f2")
 		(property "Reference" "#PWR0127"
-			(at 107.95 111.76 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7679,7 +7469,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 110.49 0)
+			(at 125.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +7477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 105.41 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,7 +7486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 105.41 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,7 +7495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 105.41 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +7675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 130.5052 63.5 0)
 			(effects
 				(font
@@ -8060,7 +7850,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 105.41 100.33 180)
+		(at 118.11 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8068,7 +7858,7 @@
 		(dnp no)
 		(uuid "a9855c8d-31f3-41e1-ab14-3acc5e0baf79")
 		(property "Reference" "C88"
-			(at 98.806 99.822 0)
+			(at 111.506 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +7867,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 98.806 102.362 0)
+			(at 111.506 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +7876,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 100.33 0)
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +7885,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 100.33 0)
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +7894,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 105.41 100.33 0)
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +7942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -8219,7 +8009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 95.25 54.61 0)
 			(effects
 				(font
@@ -8287,7 +8077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 88.9 43.4848 0)
 			(effects
 				(font
@@ -8557,7 +8347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 106.68 30.7848 0)
 			(effects
 				(font
@@ -8693,7 +8483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 110.1852 63.5 0)
 			(effects
 				(font
@@ -8831,7 +8621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 62.23 176.53 0)
 			(effects
 				(font
@@ -9098,7 +8888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 92.71 31.75 0)
 			(effects
 				(font

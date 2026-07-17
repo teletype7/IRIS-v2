@@ -1,20 +1,14 @@
-swap all spi cs's to hardware pins in case I want to try that with firmware
 finish connecting mcu and ppu
  - break out remaining pins as gpio
 general debugging needs
  - testpoints
-esd
- - only on comms interfaces like i2c spi uart can, don't esd protect everything (too many pins to do that)
-connectors
- - jst ph for gps
- - 20 pin 1mm pitch fpc for upper-lower
- - use brass standoffs for 3v3
-pyro channels
- - fused (resettable)
+circuit protection
+ - esd on comms interfaces like i2c spi uart can, don't esd protect everything (too many pins to do that)
+ - resettable fuses on stuff
+ - reverse voltage protection
 camera control
  - fused controlled power (resettable) - 4a capable
  - UART
-reverse voltage protection
 component selection/sourcing (oh no...)
 basic test firmware (test of all components, not just most)
  - must validate telemetry

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "AANI-PP-0055")(type "KiCad")(uri "${KIPRJMOD}/libraries/AANI-PP-0055.pretty")(options "")(descr ""))
   (lib (name "ALND-WB-0013-T")(type "KiCad")(uri "${KIPRJMOD}/libraries/ALND-WB-0013-T.pretty")(options "")(descr ""))
+  (lib (name "AFII-SW-0061-T")(type "KiCad")(uri "${KIPRJMOD}/libraries/AFII-SW-0061-T")(options "")(descr ""))
 )

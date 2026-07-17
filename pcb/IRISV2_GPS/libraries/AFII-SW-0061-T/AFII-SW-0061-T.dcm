@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AFII-SW-0061-T
+D 1.583GHz Frequency General Purpose RF SAW Filter (Surface Acoustic Wave) 1.1dB 45MHz Bandwidth 5-SMD, No Lead
+K
+F https://abracon.com/datasheets/AFII-SW-0061.pdf
+$ENDCMP
+#
+#End Doc Library
