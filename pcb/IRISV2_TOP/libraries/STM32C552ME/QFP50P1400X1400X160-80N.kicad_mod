@@ -846,7 +846,7 @@
 		(uuid "99f243de-42b3-405e-8d5d-2fc4702c1540")
 	)
 	(embedded_fonts no)
-	(model "STM32C552MET6.stp"
+	(model "STM32C552MET6.step"
 		(offset
 			(xyz 0 0 0)
 		)

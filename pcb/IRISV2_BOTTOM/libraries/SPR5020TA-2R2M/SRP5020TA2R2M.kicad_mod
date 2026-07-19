@@ -280,7 +280,7 @@
 		(uuid "14e15c51-52e2-43b4-b552-273246f6a2bc")
 	)
 	(embedded_fonts no)
-	(model "SRP5020TA-2R2M.stp"
+	(model "SRP5020TA-2R2M.step"
 		(offset
 			(xyz -24.66999971 -8.439999454 0)
 		)

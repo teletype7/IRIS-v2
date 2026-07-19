@@ -302,7 +302,7 @@
 		(uuid "f427c527-20b0-4b4c-8e80-11b612b14234")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/ICM-45686/ICM-45686.STEP"
+	(model "${KIPRJMOD}/libraries/ICM-45686/ICM-45686.step"
 		(offset
 			(xyz 0 0 0)
 		)

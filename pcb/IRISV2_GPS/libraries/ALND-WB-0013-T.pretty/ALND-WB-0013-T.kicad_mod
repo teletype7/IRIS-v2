@@ -62,6 +62,28 @@
 			(type solid)
 		)
 		(fill no)
+		(layer "F.SilkS")
+		(uuid "9426ec2a-7560-4164-9701-cdd06addd8e7")
+	)
+	(fp_circle
+		(center -1.4 -0.5)
+		(end -1.2 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e7e2f00e-69c7-41bb-a9ed-6d84ed24ca9b")
+	)
+	(fp_rect
+		(start -0.5 -0.725)
+		(end 0.5 0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "9f207b7a-699e-43f1-9b26-9521bbe162a9")
 	)
@@ -92,7 +114,7 @@
 		(at -0.5 -0.5)
 		(size 0.4 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(thermal_bridge_angle 45)
 		(teardrops
 			(best_length_ratio 0.2)
@@ -111,7 +133,7 @@
 		(at -0.5 0)
 		(size 0.4 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(thermal_bridge_angle 45)
 		(teardrops
 			(best_length_ratio 0.2)
@@ -130,7 +152,7 @@
 		(at -0.5 0.5)
 		(size 0.4 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(thermal_bridge_angle 45)
 		(teardrops
 			(best_length_ratio 0.2)
@@ -149,7 +171,7 @@
 		(at 0.5 0.5)
 		(size 0.4 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(thermal_bridge_angle 45)
 		(teardrops
 			(best_length_ratio 0.2)
@@ -168,7 +190,7 @@
 		(at 0.5 0)
 		(size 0.4 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(thermal_bridge_angle 45)
 		(teardrops
 			(best_length_ratio 0.2)
@@ -187,7 +209,7 @@
 		(at 0.5 -0.5)
 		(size 0.4 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0)
 		(thermal_bridge_angle 45)
 		(teardrops
 			(best_length_ratio 0.2)
@@ -203,4 +225,15 @@
 		(uuid "c6d88064-f0c2-4c2b-b2f2-6c23f8b00f83")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/ALND-WB-0013-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

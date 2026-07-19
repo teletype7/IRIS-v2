@@ -618,4 +618,15 @@
 		(uuid "ff6ddbc1-45ef-48d7-aa12-af01ebf4f7b8")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

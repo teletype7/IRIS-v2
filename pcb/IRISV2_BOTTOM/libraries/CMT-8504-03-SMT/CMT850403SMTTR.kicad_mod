@@ -251,7 +251,7 @@
 		(uuid "ab9fc704-03cd-4d57-9619-e61285dea75a")
 	)
 	(embedded_fonts no)
-	(model "CMT-8504-03-SMT-TR.stp"
+	(model "CMT-8504-03-SMT-TR.step"
 		(offset
 			(xyz 0 -3.5 -1.75)
 		)

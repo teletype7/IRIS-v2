@@ -13,4 +13,5 @@
   (lib (name "MEM2085-00-115")(type "KiCad")(uri "${KIPRJMOD}/libraries/MEM2085-00-115")(options "")(descr ""))
   (lib (name "ECS-TXO-20CSMV4")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECS-TXO-20CSMV4.pretty")(options "")(descr ""))
   (lib (name "10164227-0304A1RLF")(type "KiCad")(uri "${KIPRJMOD}/libraries/10164227-0304A1RLF")(options "")(descr ""))
+  (lib (name "10164228-0201A1RLF")(type "KiCad")(uri "${KIPRJMOD}/libraries/10164228-0201A1RLF")(options "")(descr ""))
 )

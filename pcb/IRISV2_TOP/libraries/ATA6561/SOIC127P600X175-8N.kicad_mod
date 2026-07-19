@@ -253,7 +253,7 @@
 		(uuid "476b86dd-003b-4cf8-9363-214508bbde31")
 	)
 	(embedded_fonts no)
-	(model "ATA6561-GAQW-N.stp"
+	(model "ATA6561-GAQW-N.step"
 		(offset
 			(xyz 0 0 0)
 		)
