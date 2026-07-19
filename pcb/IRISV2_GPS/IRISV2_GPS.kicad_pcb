@@ -3846,7 +3846,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0)
 			(thermal_bridge_angle 45)
 			(teardrops
 				(best_length_ratio 0.2)
@@ -3868,7 +3868,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0)
 			(thermal_bridge_angle 45)
 			(teardrops
 				(best_length_ratio 0.2)
@@ -3890,7 +3890,7 @@
 			(net 9 "Net-(U2-RFIN)")
 			(pinfunction "RFIN")
 			(pintype "input")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0)
 			(thermal_bridge_angle 45)
 			(teardrops
 				(best_length_ratio 0.2)
@@ -3912,7 +3912,7 @@
 			(net 8 "Net-(U1-VCC_RF)")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0)
 			(thermal_bridge_angle 45)
 			(teardrops
 				(best_length_ratio 0.2)
@@ -3934,7 +3934,7 @@
 			(net 8 "Net-(U1-VCC_RF)")
 			(pinfunction "Ven")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0)
 			(thermal_bridge_angle 45)
 			(teardrops
 				(best_length_ratio 0.2)
@@ -3956,7 +3956,7 @@
 			(net 17 "Net-(U1-RF_IN)")
 			(pinfunction "RFOUT")
 			(pintype "output")
-			(solder_mask_margin 0.102)
+			(solder_mask_margin 0)
 			(thermal_bridge_angle 45)
 			(teardrops
 				(best_length_ratio 0.2)

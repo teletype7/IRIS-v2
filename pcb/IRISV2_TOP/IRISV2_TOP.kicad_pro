@@ -618,7 +618,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "IRISV2_TOP.step",
       "svg": "",
       "vrml": ""
     },

@@ -312,4 +312,15 @@
 		(uuid "c77ceb85-1b88-4267-a2bc-ecb4e0148ef8")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/FFC3B07-20-T/FFC3B07-20-T.STEP"
+		(offset
+			(xyz 0 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -197,4 +197,15 @@
 		(uuid "58007e8e-3172-48fd-98f9-e190a54d6ec8")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/kf350-2p/KF350-3.5-2P-KF350-3.5-2P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

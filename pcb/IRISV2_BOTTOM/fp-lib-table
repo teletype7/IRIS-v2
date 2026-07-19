@@ -8,4 +8,5 @@
   (lib (name "FFC3B07-20-T")(type "KiCad")(uri "${KIPRJMOD}/libraries/FFC3B07-20-T")(options "")(descr ""))
   (lib (name "CMT-8504-03-SMT")(type "KiCad")(uri "${KIPRJMOD}/libraries/CMT-8504-03-SMT")(options "")(descr ""))
   (lib (name "OSTTE030104")(type "KiCad")(uri "${KIPRJMOD}/libraries/OSTTE030104/OSTTE030104.pretty")(options "")(descr ""))
+  (lib (name "SPR5020TA-2R2M")(type "KiCad")(uri "${KIPRJMOD}/libraries/SPR5020TA-2R2M")(options "")(descr ""))
 )

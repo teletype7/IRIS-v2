@@ -7841,7 +7841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MGAH0603:MGAH0603"
+		(property "Footprint" "SPR5020TA-2R2M:SRP5020TA2R2M"
 			(at 233.68 93.98 0)
 			(effects
 				(font
