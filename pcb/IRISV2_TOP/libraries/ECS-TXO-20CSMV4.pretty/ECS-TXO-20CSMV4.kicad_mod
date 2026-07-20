@@ -124,7 +124,7 @@
 		(uuid "ae0291b4-ed11-4175-bd99-d4280d33960b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/ECS-TXO-20CSMV4.pretty/ECS-250-10-37B-CTN-TR.STEP"
+	(model "${KIPRJMOD}/libraries/ECS-TXO-20CSMV4.pretty/ECS-250-10-37B-CTN-TR.step"
 		(offset
 			(xyz 0 0 0)
 		)

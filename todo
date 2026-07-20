@@ -1,13 +1,12 @@
 finish getting 3d models for parts
-finish connecting mcu and ppu
- - route out remaining pins as gpio
-general debugging needs
- - testpoints
-circuit protection
- - esd on comms interfaces like i2c spi uart can, don't esd protect everything (too many pins to do that)
- - reverse voltage protection
-camera control
- - UART
+ - 3 pin screw terminal
+ - gps antenna
+ - 3v3 regulator
+ - fix existing models (must be .step exactly and have $KIPROJMOD in the path)
+finishing touches on board
+ - fix silkscreens
+ - final pass over boards
+readme
 component selection/sourcing (oh no...)
 basic test firmware (test of all components, not just most)
  - must validate telemetry
