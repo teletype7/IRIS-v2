@@ -5,12 +5,16 @@ finish getting 3d models for parts
  - fix existing models (must be .step exactly and have $KIPROJMOD in the path)
 finishing touches on board
  - fix silkscreens
+ - gps pps and rst
  - final pass over boards
-readme
-component selection/sourcing (oh no...)
 basic test firmware (test of all components, not just most)
  - must validate telemetry
  - must validate gps
  - must validate can
  - must validate sensors AT HIGH BUS SPEEDS
  - must validate mcu->ppu interconnect AT HIGH BUS SPEEDS
+part selection/sourcing
+bom
+zine
+readme
+submission!
